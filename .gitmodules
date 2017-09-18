@@ -1,0 +1,3 @@
+[submodule "uhk-slave-switch/libs/ugl-kicad-lib"]
+	path = uhk-slave-switch/libs/ugl-kicad-lib
+	url = git@github.com:UltimateHackingKeyboard/ugl-kicad-lib.git

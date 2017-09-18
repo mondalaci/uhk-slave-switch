@@ -1,0 +1,230 @@
+EESchema Schematic File Version 2
+LIBS:ugl
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:uhk-slave-switch-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "UHK Slave Switch"
+Date ""
+Rev "1.0.0"
+Comp "Ultimate Gadget Laboratories Kft."
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L CONN_4 P1
+U 1 1 59C024F1
+P 4900 4250
+F 0 "P1" H 5028 4291 50  0000 L CNN
+F 1 "CONN_4" H 5028 4200 50  0000 L CNN
+F 2 "UGL:4P4C_Jack_A-2004-3-4-LP-N-R" H 4900 4250 60  0001 C CNN
+F 3 "" H 4900 4250 60  0000 C CNN
+	1    4900 4250
+	-1   0    0    -1  
+$EndComp
+$Comp
+L CONN_4 P3
+U 1 1 59C0291E
+P 4900 3650
+F 0 "P3" H 5028 3691 50  0000 L CNN
+F 1 "CONN_4" H 5028 3600 50  0000 L CNN
+F 2 "Socket_Strips:Socket_Strip_Angled_1x04_Pitch2.54mm" H 4900 3650 60  0001 C CNN
+F 3 "" H 4900 3650 60  0000 C CNN
+	1    4900 3650
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_4 P2
+U 1 1 59C02A2E
+P 6450 4250
+F 0 "P2" H 6578 4291 50  0000 L CNN
+F 1 "CONN_4" H 6578 4200 50  0000 L CNN
+F 2 "UGL:4P4C_Jack_A-2004-3-4-LP-N-R" H 6450 4250 60  0001 C CNN
+F 3 "" H 6450 4250 60  0000 C CNN
+	1    6450 4250
+	1    0    0    1   
+$EndComp
+$Comp
+L CONN_4 P4
+U 1 1 59C02AD3
+P 6450 3650
+F 0 "P4" H 6578 3691 50  0000 L CNN
+F 1 "CONN_4" H 6578 3600 50  0000 L CNN
+F 2 "Socket_Strips:Socket_Strip_Angled_1x04_Pitch2.54mm" H 6450 3650 60  0001 C CNN
+F 3 "" H 6450 3650 60  0000 C CNN
+	1    6450 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_4 P5
+U 1 1 59C02B25
+P 5650 3150
+F 0 "P5" V 5900 3150 50  0000 C CNN
+F 1 "CONN_4" V 5800 3150 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Angled_1x04_Pitch2.54mm" H 5650 3150 60  0001 C CNN
+F 3 "" H 5650 3150 60  0000 C CNN
+	1    5650 3150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 4P3T SW1
+U 1 1 59C117FA
+P 5650 3950
+F 0 "SW1" H 5650 3900 40  0000 C CNN
+F 1 "4P3T" H 5650 3900 40  0001 C CNN
+F 2 "UGL:1M41T1B1M1QE" H 5650 3950 60  0001 C CNN
+F 3 "" H 5650 3950 60  0000 C CNN
+	1    5650 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4P3T SW1
+U 2 1 59C1216B
+P 5650 4100
+F 0 "SW1" H 5650 4050 40  0000 C CNN
+F 1 "4P3T" H 5650 4050 40  0001 C CNN
+F 2 "UGL:1M41T1B1M1QE" H 5650 4100 60  0001 C CNN
+F 3 "" H 5650 4100 60  0000 C CNN
+	2    5650 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4P3T SW1
+U 3 1 59C1218B
+P 5650 4250
+F 0 "SW1" H 5650 4200 40  0000 C CNN
+F 1 "4P3T" H 5650 4200 40  0001 C CNN
+F 2 "UGL:1M41T1B1M1QE" H 5650 4250 60  0001 C CNN
+F 3 "" H 5650 4250 60  0000 C CNN
+	3    5650 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4P3T SW1
+U 4 1 59C121B1
+P 5650 4400
+F 0 "SW1" H 5650 4350 40  0000 C CNN
+F 1 "4P3T" H 5650 4350 40  0001 C CNN
+F 2 "UGL:1M41T1B1M1QE" H 5650 4400 60  0001 C CNN
+F 3 "" H 5650 4400 60  0000 C CNN
+	4    5650 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5250 4400 5550 4400
+Wire Wire Line
+	5550 4300 5550 4250
+Wire Wire Line
+	5250 4300 5550 4300
+Wire Wire Line
+	5550 4100 5500 4100
+Wire Wire Line
+	5500 4100 5500 4200
+Wire Wire Line
+	5500 4200 5250 4200
+Wire Wire Line
+	5550 3950 5450 3950
+Wire Wire Line
+	5450 3500 5450 4100
+Wire Wire Line
+	5450 4100 5250 4100
+Wire Wire Line
+	5250 3800 5300 3800
+Wire Wire Line
+	5300 3800 5300 4400
+Connection ~ 5300 4400
+Wire Wire Line
+	5250 3700 5350 3700
+Wire Wire Line
+	5350 3700 5350 4300
+Connection ~ 5350 4300
+Wire Wire Line
+	5250 3600 5400 3600
+Wire Wire Line
+	5400 3600 5400 4200
+Connection ~ 5400 4200
+Wire Wire Line
+	5450 3500 5250 3500
+Connection ~ 5450 3950
+Wire Wire Line
+	5750 4400 6100 4400
+Wire Wire Line
+	5750 4250 5750 4300
+Wire Wire Line
+	5750 4300 6100 4300
+Wire Wire Line
+	5750 4100 5800 4100
+Wire Wire Line
+	5800 4100 5800 4200
+Wire Wire Line
+	5800 4200 6100 4200
+Wire Wire Line
+	5750 3950 5850 3950
+Wire Wire Line
+	5850 4100 6100 4100
+Wire Wire Line
+	5500 3800 6100 3800
+Wire Wire Line
+	5600 3700 6100 3700
+Wire Wire Line
+	5700 3600 6100 3600
+Wire Wire Line
+	5800 3500 6100 3500
+Wire Wire Line
+	5700 3500 5700 3600
+Wire Wire Line
+	5600 3500 5600 3700
+Wire Wire Line
+	5500 3500 5500 3800
+Connection ~ 6050 4100
+Connection ~ 6050 3500
+Connection ~ 6000 4200
+Connection ~ 6000 3600
+Wire Wire Line
+	5850 3950 5850 4100
+Connection ~ 5950 4300
+Connection ~ 5950 3700
+Connection ~ 5900 4400
+Connection ~ 5900 3800
+Wire Wire Line
+	5900 3800 5900 4400
+Wire Wire Line
+	5950 3700 5950 4300
+Wire Wire Line
+	6000 3600 6000 4200
+Wire Wire Line
+	6050 3500 6050 4100
+$EndSCHEMATC
